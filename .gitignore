@@ -1,0 +1,8 @@
+.ipynb_checkpoints
+*.pyc
+*.swp
+logs
+computed
+details
+images
+.DS_Store

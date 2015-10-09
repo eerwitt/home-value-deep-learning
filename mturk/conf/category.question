@@ -1,0 +1,58 @@
+<QuestionForm xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd">
+  <Overview>
+    <Title>Real Estate Image Category</Title>
+    <Text>
+      You are helping categorize images of real estate property, this property may include homes.
+    </Text>
+  </Overview>
+  <Question>
+   <QuestionIdentifier>1</QuestionIdentifier>
+   <DisplayName>Image ID: ${id}</DisplayName>
+   <IsRequired>true</IsRequired>
+   <QuestionContent>
+      <Binary>
+        <MimeType>
+          <Type>image</Type>
+        </MimeType>
+        <DataURL>${url}</DataURL>
+        <AltText>Image of Real Estate. NOTE: If no image is displayed, return the HIT.</AltText>
+      </Binary>
+   </QuestionContent>
+   <AnswerSpecification>
+    <SelectionAnswer>
+      <StyleSuggestion>radiobutton</StyleSuggestion>
+      <Selections>
+        <Selection>
+          <SelectionIdentifier>Exterior</SelectionIdentifier>
+          <Text>Exterior view of a house including front, side or rear views.</Text>
+        </Selection>
+        <Selection>
+          <SelectionIdentifier>Interior</SelectionIdentifier>
+          <Text>Interior view of a house including bathrooms, living rooms, kitchens or other areas used for indoor socializaing.</Text>
+        </Selection>
+        <Selection>
+          <SelectionIdentifier>Garden</SelectionIdentifier>
+          <Text>A garden, terrace, yard, patio, BBQ, pool, veranda or other outdoor area used for outdoor socializing.</Text>
+        </Selection>
+        <Selection>
+          <SelectionIdentifier>Land</SelectionIdentifier>
+          <Text>Vacant land or trees which are not part of a living or socializing area.</Text>
+        </Selection>
+        <Selection>
+          <SelectionIdentifier>View</SelectionIdentifier>
+          <Text>A scenic view of surrounding area or landscape.</Text>
+        </Selection>
+        <Selection>
+          <SelectionIdentifier>Road</SelectionIdentifier>
+          <Text>A public road which does not highlight any attributes of a piece of property or house.</Text>
+        </Selection>
+        <Selection>
+          <SelectionIdentifier>Map</SelectionIdentifier>
+          <Text>An aerial map which includes Google Maps or satellite views.</Text>
+        </Selection>
+        <OtherSelection />
+      </Selections>
+    </SelectionAnswer>
+   </AnswerSpecification>
+  </Question>
+</QuestionForm>

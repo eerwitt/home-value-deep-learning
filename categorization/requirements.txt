@@ -1,0 +1,5 @@
+django==1.8
+ipython
+-e git://github.com/django-admin-bootstrapped/django-admin-bootstrapped.git@e43ae0a167e1c37ad682f22f72b9665ae45e4a40#egg=django-admin-bootstrapped
+django_extensions
+Werkzeug
