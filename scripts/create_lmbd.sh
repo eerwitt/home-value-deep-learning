@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/bin/bash
 # Create the imagenet lmdb inputs
 # N.B. set the path to the imagenet train + val data dirs
 # Originally Found via:

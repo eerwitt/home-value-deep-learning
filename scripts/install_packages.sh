@@ -1,4 +1,4 @@
-#!/bin/sh  
+#!/bin/bash  
 # Some requirements which are useful.
 sudo apt-get install \
   libxml2-dev \

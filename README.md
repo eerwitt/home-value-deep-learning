@@ -97,3 +97,4 @@ Create data which will be used to create a model.
 * [MXNet Distributed Deep Learning](https://github.com/dmlc/mxnet)
 * [RNN Introduction](http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-1-introduction-to-rnns/)
 * [Chainer Deep Learning Framework](http://chainer.org/)
+* [NVIDIA introduction to CNN](http://devblogs.nvidia.com/parallelforall/accelerate-machine-learning-cudnn-deep-neural-network-library/)

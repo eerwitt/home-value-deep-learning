@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # Run the full process to go from a bunch of images and their test, train, cross validation and their friendly words (SOFTMAX loss layer) to a trained caffe model.
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/ubuntu/caffe/distribute/lib:/home/ubuntu/torch-distro/install/lib:/home/ubuntu/torch-distro/install/lib:/usr/local/cuda/lib64:
 echo "Warning, removing generated data directory before running Caffe."

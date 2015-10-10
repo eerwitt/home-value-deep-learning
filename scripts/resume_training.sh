@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/bin/bash
 # Originally found via:
 # https://github.com/BVLC/caffe/blob/71e05876f644a08af4cb1c955d01c5a272539e96/examples/imagenet/resume_training.sh
 

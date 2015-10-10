@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Helper script to setup a python environment including the caffe libraries.
 export PYTHONPATH=/home/ubuntu/caffe/distribute/python
