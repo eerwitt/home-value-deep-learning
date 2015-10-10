@@ -35,6 +35,10 @@ Now startup the notebooks and look around.
 
 ![General Architecture](./docs/images/general-layout.png?raw=true "General Architecture")
 
+### General Operations
+
+Manage the system or systems which are doing the model training.
+
 * Check list of prices for EC2 Spot instances g2.2xlarge.
 * Start a spot instance in a certain region for _x_ hours or days.
 * Use Ansible to connect to system and be able to transfer files.
@@ -44,10 +48,16 @@ Now startup the notebooks and look around.
 * Visualize results in iPython notebook.
 * Shutdown instance.
 
+
+### Training Data Setup
+
+Create data which will be used to create a model.
+
 * Generate test, train and cross validation data.
   * Connect to Zillow and download pictures.
   * Categorize images using `categorization` Django application.
   * Output in a format for Caffe to use.
+
 
 ## References
 
