@@ -6,3 +6,5 @@
 /details
 /images
 .DS_Store
+/mturk/input/images_with_ids.tsv
+/categorization/uncategorized_images.tsv

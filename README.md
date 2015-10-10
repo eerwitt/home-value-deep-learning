@@ -31,6 +31,33 @@ Now startup the notebooks and look around.
 
 `ipython notebook`
 
+Running anything using your EC2 account requires the proper [AWS credentials file](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html#cli-config-files) and to update the `profile` setting from `cedarstreet` to your profile's name.
+
+It will also require security policies in place with enough access to your profile, an example is placed below.
+
+```
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Stmt000",
+            "Effect": "Allow",
+            "Action": [
+                "ec2:DescribeInstances",
+                "ec2:DescribeSpotInstanceRequests",
+                "ec2:RequestSpotInstances",
+                "ec2:DescribeSpotPriceHistory"
+            ],
+            "Resource": [
+                "*"
+            ]
+        }
+    ]
+}
+```
+
+When using Ansible, it will require SSH access to the VPC's Security Group where those instances are running.
+
 ## Process
 
 ![General Architecture](./docs/images/general-layout.png?raw=true "General Architecture")
