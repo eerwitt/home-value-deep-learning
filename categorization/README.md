@@ -31,4 +31,4 @@ After going over all the uncategorized images, we need to output a TSV which can
 
 `python manage.py generate_training_file ./output.tsv`
 
-This will create a file named `"output.csv"` which will include all the Zillow IDs, URLs and categories of images which were categorized using this tool.
+This will create a file named `"output.tsv"` which will include all the Zillow IDs, URLs and categories of images which were categorized using this tool.

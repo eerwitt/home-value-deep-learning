@@ -4,12 +4,12 @@
 # Originally Found via:
 # https://github.com/BVLC/caffe/blob/71e05876f644a08af4cb1c955d01c5a272539e96/examples/imagenet/create_imagenet.sh
 
-EXAMPLE=../data
-DATA=../computed
-TOOLS=../caffe/build/tools
+EXAMPLE=/home/ubuntu/data
+DATA=/home/ubuntu/computed
+TOOLS=/home/ubuntu/caffe/build/tools
 
-TRAIN_DATA_ROOT=../images/
-VAL_DATA_ROOT=../images/
+TRAIN_DATA_ROOT=/home/ubuntu/images/
+VAL_DATA_ROOT=/home/ubuntu/images/
 
 # Set RESIZE=true to resize the images to 256x256. Leave as false if images have
 # already been resized using another tool.
