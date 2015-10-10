@@ -7,10 +7,10 @@ This can be used as a base project to launch off custom projects which use deep 
 The work flow is designed with the following goals in mind.
 
 * Keep it affordable.
-* Quickly iterate (__not hack!__).
+* Quickly iterate.
 * Provable assertions.
 
-The general process which is used in building these models follows a general pattern of:
+The process which is used in building these models follows this pattern:
 
 * Download a bunch of images.
 * Get or create meta-data about the images.
