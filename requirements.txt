@@ -1,0 +1,7 @@
+boto
+python-dateutil
+pandas
+seaborn
+ipython[notebook]
+ansible
+lxml
